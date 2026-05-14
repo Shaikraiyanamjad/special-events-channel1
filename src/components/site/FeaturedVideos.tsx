@@ -6,11 +6,11 @@ import networking from "@/assets/networking.jpg";
 import interview from "@/assets/interview.jpg";
 
 const videos = [
-  { img: stage, cat: "Conference", title: "Inside the Web Summit 2026 Keynote", duration: "12:48" },
-  { img: hospitality, cat: "Hospitality", title: "Four Seasons Unveils its Riviera Estate", duration: "08:22" },
+  { img: stage, cat: "Conference", title: "Inside the CES 2026 Las Vegas Keynote", duration: "12:48" },
+  { img: hospitality, cat: "Hospitality", title: "The Plaza Unveils its Manhattan Estate", duration: "08:22" },
   { img: networking, cat: "Networking", title: "The Art of Executive Connection", duration: "06:10" },
-  { img: expo, cat: "Trade Show", title: "MWC Barcelona — Floor Highlights", duration: "14:37" },
-  { img: interview, cat: "Interview", title: "Marriott CEO on the Next Decade", duration: "22:05" },
+  { img: expo, cat: "Trade Show", title: "NRF New York — Floor Highlights", duration: "14:37" },
+  { img: interview, cat: "Interview", title: "Hilton CEO on the Next American Decade", duration: "22:05" },
 ];
 
 export function FeaturedVideos() {
