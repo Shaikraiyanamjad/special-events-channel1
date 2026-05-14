@@ -5,10 +5,10 @@ import stage from "@/assets/stage.jpg";
 import networking from "@/assets/networking.jpg";
 
 const events = [
-  { img: stage, date: "MAR 12–14", city: "Davos, CH", title: "World Economic Forum Annex", tag: "Conference", countdown: "12d 04h" },
-  { img: hospitality, date: "APR 02–05", city: "Marrakech, MA", title: "Luxury Hospitality Summit", tag: "Hospitality", countdown: "33d 11h" },
-  { img: expo, date: "MAY 18–22", city: "Singapore", title: "Asia Pacific Trade Expo", tag: "Trade Show", countdown: "78d 20h" },
-  { img: networking, date: "JUN 09", city: "New York", title: "Forbes Executive Gala", tag: "Gala", countdown: "100d 03h" },
+  { img: stage, date: "MAR 12–14", title: "World Economic Forum Annex", tag: "Conference", countdown: "12d 04h" },
+  { img: hospitality, date: "APR 02–05", title: "Luxury Hospitality Summit", tag: "Hospitality", countdown: "33d 11h" },
+  { img: expo, date: "MAY 18–22", title: "Asia Pacific Trade Expo", tag: "Trade Show", countdown: "78d 20h" },
+  { img: networking, date: "JUN 09", title: "Forbes Executive Gala", tag: "Gala", countdown: "100d 03h" },
 ];
 
 export function Events() {
