@@ -21,7 +21,7 @@ const tiers = [
   },
 ];
 
-const logos = ["Marriott", "Forbes", "Bloomberg", "Web Summit", "Four Seasons", "TED", "Hilton", "Reuters", "Accor", "Emirates", "IHG", "Hyatt"];
+const logos = ["Marriott", "Forbes", "Bloomberg", "NBC", "Hilton", "TED", "Hyatt", "Reuters", "CNBC", "Wynn", "MGM", "Delta"];
 
 export function Sponsorship() {
   return (
