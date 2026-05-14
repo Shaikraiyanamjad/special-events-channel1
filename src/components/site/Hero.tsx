@@ -36,9 +36,7 @@ export function Hero() {
           />
         </video>
 
-        {/* Subtle scrim only at edges so content stays legible — no heavy overlay */}
-        <div className="pointer-events-none absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-black/40 to-transparent" />
-        <div className="pointer-events-none absolute inset-x-0 bottom-0 h-64 bg-gradient-to-t from-black/60 to-transparent" />
+
 
         {/* Hero content — no overlay; text uses drop-shadow for legibility */}
         <div className="relative z-10 mx-auto flex h-full max-w-7xl flex-col justify-end px-4 pb-20 sm:px-6 lg:px-10 lg:pb-28">
