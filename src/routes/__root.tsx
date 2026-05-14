@@ -72,10 +72,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Special Events Channel — Where Global Events & Business Leaders Connect" },
-      { name: "description", content: "Premier conferences, executive insights, sponsorship opportunities, hospitality events, and industry-leading experiences from around the world." },
+      { title: "Special Events Channel — Where America's Events & Business Leaders Connect" },
+      { name: "description", content: "Premier U.S. conferences, executive insights, sponsorship opportunities, and hospitality events from across America." },
       { property: "og:title", content: "Special Events Channel" },
-      { property: "og:description", content: "Where global events & business leaders connect." },
+      { property: "og:description", content: "Where America's events & business leaders connect." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
