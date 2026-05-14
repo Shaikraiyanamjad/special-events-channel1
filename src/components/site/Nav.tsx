@@ -40,9 +40,11 @@ export function Nav() {
               <a
                 key={l}
                 href={`#${l.toLowerCase()}`}
-                className="relative text-sm font-medium text-foreground/80 transition-colors hover:text-primary
+                className={`relative text-sm font-medium transition-colors hover:text-primary
                 after:absolute after:left-0 after:-bottom-1 after:h-px after:w-0 after:bg-primary
-                after:transition-all hover:after:w-full"
+                after:transition-all hover:after:w-full ${
+                  scrolled ? "text-foreground/80" : "text-white [text-shadow:0_1px_6px_rgba(0,0,0,0.5)]"
+                }`}
               >
                 {l}
               </a>
@@ -51,7 +53,9 @@ export function Nav() {
           <div className="flex items-center gap-3">
             <a
               href="#members"
-              className="hidden rounded-full px-4 py-2 text-sm font-medium text-foreground/80 hover:text-primary md:inline-block"
+              className={`hidden rounded-full px-4 py-2 text-sm font-medium hover:text-primary md:inline-block ${
+                scrolled ? "text-foreground/80" : "text-white"
+              }`}
             >
               Sign in
             </a>
