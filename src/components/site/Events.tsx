@@ -67,9 +67,8 @@ export function Events() {
                 <span className="absolute right-4 top-4 rounded-full glass-dark px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider text-white">
                   {e.tag}
                 </span>
-                <div className="absolute inset-x-0 bottom-0 p-5 text-white">
-                  <p className="text-xs opacity-80">{e.city}</p>
-                  <h3 className="mt-1 font-display text-xl font-medium leading-snug">{e.title}</h3>
+                <div className="absolute inset-x-0 bottom-0 p-5 text-white [text-shadow:0_2px_12px_rgba(0,0,0,0.6)]">
+                  <h3 className="font-display text-xl font-medium leading-snug">{e.title}</h3>
                 </div>
               </div>
               <div className="flex items-center justify-between gap-2 p-5">
