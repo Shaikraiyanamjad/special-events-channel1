@@ -27,7 +27,6 @@ export function LiveWebcasts() {
           <div className="lg:col-span-3">
             <div className="group relative overflow-hidden rounded-3xl shadow-elegant">
               <img src={stage} alt="Live broadcast" className="aspect-video w-full object-cover" loading="lazy" />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
               <span className="absolute left-5 top-5 inline-flex items-center gap-2 rounded-full bg-red-500/90 px-3 py-1 text-xs font-bold uppercase tracking-wider text-white">
                 <span className="h-1.5 w-1.5 rounded-full bg-white animate-pulse" /> Live · 8.2K watching
               </span>

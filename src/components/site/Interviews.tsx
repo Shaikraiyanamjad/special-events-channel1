@@ -22,11 +22,9 @@ export function Interviews() {
             <div className="grid grid-cols-2 overflow-hidden rounded-3xl shadow-elegant">
               <div className="relative aspect-[3/4] overflow-hidden">
                 <img src={exec1} alt="Helena Vargas" className="h-full w-full object-cover" loading="lazy" />
-                <div className="absolute inset-0 bg-gradient-to-t from-primary-deep/40 to-transparent" />
               </div>
               <div className="relative aspect-[3/4] overflow-hidden">
                 <img src={exec2} alt="Daniel Okafor" className="h-full w-full object-cover" loading="lazy" />
-                <div className="absolute inset-0 bg-gradient-to-t from-primary/30 to-transparent" />
               </div>
             </div>
             <div className="mt-6 flex items-start justify-between gap-6">

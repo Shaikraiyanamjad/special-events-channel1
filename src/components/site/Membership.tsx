@@ -78,7 +78,6 @@ export function Membership() {
                 <div className="overflow-hidden rounded-2xl shadow-soft">
                   <div className="relative">
                     <img src={hospitality} alt="Curated for you" className="h-44 w-full object-cover" loading="lazy" />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                     <div className="absolute inset-x-0 bottom-0 p-4 text-white">
                       <p className="text-[10px] uppercase tracking-wider opacity-80">AI pick for you</p>
                       <p className="font-display text-lg">Mediterranean Hospitality Forum</p>
