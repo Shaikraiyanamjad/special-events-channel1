@@ -16,13 +16,13 @@ export function GlobalMap() {
     <section className="relative py-16 lg:py-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-10">
         <SectionHeader
-          eyebrow="Global Reach"
+          eyebrow="Nationwide Coverage"
           title={
             <>
-              92 countries. One <span className="italic text-gradient-emerald">live channel.</span>
+              50 states. One <span className="italic text-gradient-emerald">live channel.</span>
             </>
           }
-          description="Track international conferences, hospitality venues, and trade shows happening right now across the global event ecosystem."
+          description="Track American conferences, hospitality venues, and trade shows happening right now across the U.S. event ecosystem."
         />
 
         <div className="relative mt-14 overflow-hidden rounded-3xl bg-gradient-soft p-6 shadow-soft sm:p-10">
