@@ -1,14 +1,14 @@
 import { SectionHeader } from "./Section";
 
 const pins = [
-  { x: "22%", y: "38%", city: "New York", events: 124 },
-  { x: "44%", y: "34%", city: "London", events: 98 },
-  { x: "50%", y: "40%", city: "Paris", events: 76 },
-  { x: "56%", y: "52%", city: "Dubai", events: 62 },
-  { x: "72%", y: "48%", city: "Singapore", events: 81 },
-  { x: "82%", y: "42%", city: "Tokyo", events: 70 },
-  { x: "30%", y: "62%", city: "São Paulo", events: 44 },
-  { x: "60%", y: "70%", city: "Cape Town", events: 31 },
+  { x: "22%", y: "38%" },
+  { x: "44%", y: "34%" },
+  { x: "50%", y: "40%" },
+  { x: "56%", y: "52%" },
+  { x: "72%", y: "48%" },
+  { x: "82%", y: "42%" },
+  { x: "30%", y: "62%" },
+  { x: "60%", y: "70%" },
 ];
 
 export function GlobalMap() {
