@@ -15,7 +15,7 @@ const videos = [
 
 export function FeaturedVideos() {
   return (
-    <section id="webcasts" className="relative py-28 lg:py-36">
+    <section id="webcasts" className="relative py-16 lg:py-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-10">
         <div className="flex flex-wrap items-end justify-between gap-6">
           <SectionHeader

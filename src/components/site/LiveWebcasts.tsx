@@ -10,7 +10,7 @@ const upcoming = [
 
 export function LiveWebcasts() {
   return (
-    <section className="relative bg-gradient-soft py-28 lg:py-36">
+    <section className="relative bg-gradient-soft py-16 lg:py-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-10">
         <SectionHeader
           eyebrow="Live & Upcoming"

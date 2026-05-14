@@ -5,7 +5,7 @@ import interview from "@/assets/interview.jpg";
 
 export function Interviews() {
   return (
-    <section id="interviews" className="py-28 lg:py-36">
+    <section id="interviews" className="py-16 lg:py-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-10">
         <SectionHeader
           eyebrow="Executive Corner"

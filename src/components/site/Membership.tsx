@@ -3,7 +3,7 @@ import hospitality from "@/assets/hospitality.jpg";
 
 export function Membership() {
   return (
-    <section id="members" className="relative overflow-hidden py-28 lg:py-36">
+    <section id="members" className="relative overflow-hidden py-16 lg:py-20">
       <div className="mx-auto grid max-w-7xl items-center gap-14 px-4 sm:px-6 lg:grid-cols-2 lg:gap-20 lg:px-10">
         <div>
           <SectionHeader

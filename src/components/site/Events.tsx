@@ -13,7 +13,7 @@ const events = [
 
 export function Events() {
   return (
-    <section id="events" className="relative py-28 lg:py-36">
+    <section id="events" className="relative py-16 lg:py-20">
       <div
         aria-hidden
         className="absolute inset-x-0 top-0 -z-10 h-96"
