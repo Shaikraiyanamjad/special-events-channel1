@@ -36,25 +36,18 @@ export function Hero() {
           />
         </video>
 
-        {/* Subtle scrim only at edges so content stays legible — no heavy overlay */}
-        <div className="pointer-events-none absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-black/40 to-transparent" />
-        <div className="pointer-events-none absolute inset-x-0 bottom-0 h-64 bg-gradient-to-t from-black/60 to-transparent" />
 
-        {/* Hero content */}
+
+        {/* Hero content — no overlay; text uses drop-shadow for legibility */}
         <div className="relative z-10 mx-auto flex h-full max-w-7xl flex-col justify-end px-4 pb-20 sm:px-6 lg:px-10 lg:pb-28">
-          <div className="max-w-4xl animate-fade-up">
-            <div className="mb-6 inline-flex items-center gap-2 rounded-full glass-dark px-4 py-1.5 text-xs font-medium uppercase tracking-wider text-white">
-              <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-primary" />
-              Live now · Global Hospitality Summit, Dubai
-            </div>
-
+          <div className="max-w-4xl animate-fade-up [text-shadow:0_4px_24px_rgba(0,0,0,0.55)]">
             <h1 className="font-display text-5xl font-light leading-[1.02] text-white text-balance sm:text-6xl lg:text-7xl xl:text-[5.5rem]">
               Where Global Events &amp;{" "}
               <span className="italic text-primary-soft">Business Leaders</span>{" "}
               Connect.
             </h1>
 
-            <p className="mt-7 max-w-2xl text-lg leading-relaxed text-white/80 sm:text-xl">
+            <p className="mt-7 max-w-2xl text-lg leading-relaxed text-white sm:text-xl">
               Discover premier conferences, executive insights, sponsorship opportunities,
               hospitality events, and industry-leading experiences from around the world.
             </p>

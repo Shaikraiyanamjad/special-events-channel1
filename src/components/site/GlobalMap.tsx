@@ -1,14 +1,14 @@
 import { SectionHeader } from "./Section";
 
 const pins = [
-  { x: "22%", y: "38%", city: "New York", events: 124 },
-  { x: "44%", y: "34%", city: "London", events: 98 },
-  { x: "50%", y: "40%", city: "Paris", events: 76 },
-  { x: "56%", y: "52%", city: "Dubai", events: 62 },
-  { x: "72%", y: "48%", city: "Singapore", events: 81 },
-  { x: "82%", y: "42%", city: "Tokyo", events: 70 },
-  { x: "30%", y: "62%", city: "São Paulo", events: 44 },
-  { x: "60%", y: "70%", city: "Cape Town", events: 31 },
+  { x: "22%", y: "38%" },
+  { x: "44%", y: "34%" },
+  { x: "50%", y: "40%" },
+  { x: "56%", y: "52%" },
+  { x: "72%", y: "48%" },
+  { x: "82%", y: "42%" },
+  { x: "30%", y: "62%" },
+  { x: "60%", y: "70%" },
 ];
 
 export function GlobalMap() {
@@ -38,18 +38,14 @@ export function GlobalMap() {
                 "radial-gradient(ellipse at center, black 60%, transparent 100%)",
             }}
           >
-            {pins.map((p) => (
+            {pins.map((p, i) => (
               <div
-                key={p.city}
-                className="group absolute -translate-x-1/2 -translate-y-1/2"
+                key={i}
+                className="absolute -translate-x-1/2 -translate-y-1/2"
                 style={{ left: p.x, top: p.y }}
               >
                 <span className="block h-3 w-3 rounded-full bg-primary shadow-glow ring-4 ring-primary/20" />
                 <span className="absolute inset-0 -m-2 animate-ping rounded-full bg-primary/40" />
-                <div className="pointer-events-none absolute left-1/2 top-full mt-3 -translate-x-1/2 whitespace-nowrap rounded-xl glass px-3 py-2 text-xs opacity-0 shadow-soft transition-opacity duration-300 group-hover:opacity-100">
-                  <p className="font-semibold text-foreground">{p.city}</p>
-                  <p className="text-foreground/60">{p.events} live events</p>
-                </div>
               </div>
             ))}
           </div>

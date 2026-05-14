@@ -35,12 +35,11 @@ export function Footer() {
             </form>
           </div>
 
-          <div className="grid grid-cols-2 gap-10 sm:grid-cols-4 lg:col-span-7">
+          <div className="grid grid-cols-2 gap-10 sm:grid-cols-3 lg:col-span-7">
             {[
               { h: "Channel", l: ["Events", "Webcasts", "Interviews", "Documentaries"] },
               { h: "Industry", l: ["Hospitality", "Conferences", "Trade Shows", "Galas"] },
               { h: "Business", l: ["Sponsorship", "Media Kit", "Advertising", "Partnerships"] },
-              { h: "Company", l: ["About", "Newsroom", "Careers", "Contact"] },
             ].map((c) => (
               <div key={c.h}>
                 <p className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">{c.h}</p>
@@ -51,6 +50,21 @@ export function Footer() {
                 </ul>
               </div>
             ))}
+            <div className="col-span-2 sm:col-span-3">
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-primary">Get in touch</p>
+              <ul className="mt-5 space-y-3 text-sm text-background/80">
+                <li>
+                  <a href="mailto:info@renaissanceevents.com" className="hover:text-background transition-colors">
+                    info@renaissanceevents.com
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:info@specialeventschannel.com" className="hover:text-background transition-colors">
+                    info@specialeventschannel.com
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
 

@@ -5,10 +5,10 @@ import stage from "@/assets/stage.jpg";
 import networking from "@/assets/networking.jpg";
 
 const events = [
-  { img: stage, date: "MAR 12–14", city: "Davos, CH", title: "World Economic Forum Annex", tag: "Conference", countdown: "12d 04h" },
-  { img: hospitality, date: "APR 02–05", city: "Marrakech, MA", title: "Luxury Hospitality Summit", tag: "Hospitality", countdown: "33d 11h" },
-  { img: expo, date: "MAY 18–22", city: "Singapore", title: "Asia Pacific Trade Expo", tag: "Trade Show", countdown: "78d 20h" },
-  { img: networking, date: "JUN 09", city: "New York", title: "Forbes Executive Gala", tag: "Gala", countdown: "100d 03h" },
+  { img: stage, date: "MAR 12–14", title: "World Economic Forum Annex", tag: "Conference", countdown: "12d 04h" },
+  { img: hospitality, date: "APR 02–05", title: "Luxury Hospitality Summit", tag: "Hospitality", countdown: "33d 11h" },
+  { img: expo, date: "MAY 18–22", title: "Asia Pacific Trade Expo", tag: "Trade Show", countdown: "78d 20h" },
+  { img: networking, date: "JUN 09", title: "Forbes Executive Gala", tag: "Gala", countdown: "100d 03h" },
 ];
 
 export function Events() {
@@ -67,9 +67,8 @@ export function Events() {
                 <span className="absolute right-4 top-4 rounded-full glass-dark px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider text-white">
                   {e.tag}
                 </span>
-                <div className="absolute inset-x-0 bottom-0 p-5 text-white">
-                  <p className="text-xs opacity-80">{e.city}</p>
-                  <h3 className="mt-1 font-display text-xl font-medium leading-snug">{e.title}</h3>
+                <div className="absolute inset-x-0 bottom-0 p-5 text-white [text-shadow:0_2px_12px_rgba(0,0,0,0.6)]">
+                  <h3 className="font-display text-xl font-medium leading-snug">{e.title}</h3>
                 </div>
               </div>
               <div className="flex items-center justify-between gap-2 p-5">
