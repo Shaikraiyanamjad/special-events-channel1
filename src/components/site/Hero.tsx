@@ -44,14 +44,14 @@ export function Hero() {
         <div className="relative z-10 mx-auto flex h-full max-w-7xl flex-col justify-end px-4 pb-20 sm:px-6 lg:px-10 lg:pb-28">
           <div className="max-w-4xl animate-fade-up [text-shadow:0_4px_24px_rgba(0,0,0,0.55)]">
             <h1 className="font-display text-5xl font-light leading-[1.02] text-white text-balance sm:text-6xl lg:text-7xl xl:text-[5.5rem]">
-              Where Global Events &amp;{" "}
+              Where America&rsquo;s Events &amp;{" "}
               <span className="italic text-primary-soft">Business Leaders</span>{" "}
               Connect.
             </h1>
 
             <p className="mt-7 max-w-2xl text-lg leading-relaxed text-white sm:text-xl">
-              Discover premier conferences, executive insights, sponsorship opportunities,
-              hospitality events, and industry-leading experiences from around the world.
+              Premier U.S. conferences, executive insights, sponsorship opportunities,
+              and hospitality events — from New York and Miami to Las Vegas and Los Angeles.
             </p>
 
             <div className="mt-10 flex flex-wrap items-center gap-3">
