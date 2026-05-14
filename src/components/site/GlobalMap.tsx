@@ -52,10 +52,10 @@ export function GlobalMap() {
 
           <div className="mt-8 grid gap-4 sm:grid-cols-4">
             {[
-              { l: "Cities", v: "320+" },
-              { l: "Live now", v: "47" },
-              { l: "Venues mapped", v: "1,840" },
-              { l: "Annual reach", v: "12M" },
+              { l: "U.S. cities", v: "180+" },
+              { l: "Live now", v: "32" },
+              { l: "Venues mapped", v: "1,240" },
+              { l: "Annual reach", v: "8M" },
             ].map((s) => (
               <div key={s.l} className="rounded-2xl bg-white p-5 text-center shadow-soft">
                 <p className="font-display text-3xl text-gradient-emerald">{s.v}</p>
