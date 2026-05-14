@@ -42,7 +42,7 @@ export function Sponsorship() {
           {logos.map((l) => (
             <div
               key={l}
-              className="grid h-24 place-items-center bg-white font-display text-xl font-light tracking-wide text-foreground/40 transition-all hover:bg-primary-soft hover:text-primary-deep"
+              className="flex h-24 items-center justify-center whitespace-nowrap bg-white px-2 text-center font-display text-base font-light tracking-wide text-foreground/40 transition-all hover:bg-primary-soft hover:text-primary-deep sm:text-lg"
             >
               {l}
             </div>
