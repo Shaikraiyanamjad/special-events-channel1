@@ -44,7 +44,6 @@ export function FeaturedVideos() {
               className="h-full max-h-[640px] w-full object-cover transition-transform duration-[1200ms] group-hover:scale-105"
               loading="lazy"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
             <div className="absolute inset-x-0 bottom-0 p-8 lg:p-10">
               <span className="inline-flex items-center gap-2 rounded-full glass-dark px-3 py-1 text-xs font-semibold uppercase tracking-wider text-white">
                 {videos[0].cat} · {videos[0].duration}
@@ -71,8 +70,6 @@ export function FeaturedVideos() {
                   className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
                   loading="lazy"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
-                <div className="absolute inset-0 bg-gradient-to-br from-primary/0 to-primary/0 group-hover:from-primary/20 group-hover:to-transparent transition-all duration-500" />
                 <span className="absolute right-3 top-3 rounded-full glass-dark px-2.5 py-1 text-[11px] font-semibold text-white">
                   {v.duration}
                 </span>

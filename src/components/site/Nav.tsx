@@ -25,7 +25,11 @@ export function Nav() {
           }`}
         >
           <a href="#" className="flex items-center gap-2">
-            <img src={logo} alt="Special Events Channel" className="h-9 w-auto" />
+            <img
+              src={logo}
+              alt="Special Events Channel"
+              className={`w-auto transition-all duration-500 ${scrolled ? "h-12" : "h-16 drop-shadow-[0_2px_8px_rgba(255,255,255,0.6)]"}`}
+            />
           </a>
           <nav className="hidden items-center gap-8 lg:flex">
             {links.map((l) => (

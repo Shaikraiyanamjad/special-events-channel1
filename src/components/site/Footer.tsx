@@ -14,8 +14,8 @@ export function Footer() {
       <div className="relative mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-10">
         <div className="grid gap-14 lg:grid-cols-12">
           <div className="lg:col-span-5">
-            <div className="rounded-2xl bg-white p-3 inline-block">
-              <img src={logo} alt="Special Events Channel" className="h-10 w-auto" />
+            <div className="inline-block">
+              <img src={logo} alt="Special Events Channel" className="h-14 w-auto brightness-0 invert" />
             </div>
             <h3 className="mt-8 font-display text-3xl font-light text-background sm:text-4xl">
               Stay in the room. <span className="italic text-primary">Subscribe.</span>

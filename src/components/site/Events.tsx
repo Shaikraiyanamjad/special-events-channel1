@@ -61,7 +61,6 @@ export function Events() {
                   className="h-full w-full object-cover transition-transform duration-[1200ms] group-hover:scale-110"
                   loading="lazy"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
                 <div className="absolute left-4 top-4 rounded-2xl glass px-3 py-2 text-center shadow-soft">
                   <p className="font-display text-xs font-semibold tracking-wider text-primary-deep">{e.date}</p>
                 </div>
