@@ -28,7 +28,11 @@ export function Nav() {
             <img
               src={logo}
               alt="Special Events Channel"
-              className={`w-auto transition-all duration-500 ${scrolled ? "h-12" : "h-16 drop-shadow-[0_2px_8px_rgba(255,255,255,0.6)]"}`}
+              className={`w-auto transition-all duration-500 ${
+                scrolled
+                  ? "h-12"
+                  : "h-16 brightness-0 invert drop-shadow-[0_2px_8px_rgba(0,0,0,0.45)]"
+              }`}
             />
           </a>
           <nav className="hidden items-center gap-8 lg:flex">
