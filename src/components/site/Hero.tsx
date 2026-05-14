@@ -1,15 +1,15 @@
 import heroImg from "@/assets/hero.jpg";
 
 const stats = [
-  { v: "12K+", l: "Global events covered" },
-  { v: "480", l: "Live webcasts / yr" },
-  { v: "92", l: "Countries reached" },
-  { v: "1.4M", l: "Executive members" },
+  { v: "8K+", l: "U.S. events covered" },
+  { v: "320", l: "Live webcasts / yr" },
+  { v: "50", l: "States reached" },
+  { v: "850K", l: "Executive members" },
 ];
 
 const sponsors = [
-  "Marriott", "Forbes", "Bloomberg", "Web Summit", "Four Seasons",
-  "TED", "Hilton", "Reuters", "Accor", "Emirates",
+  "Marriott", "Forbes", "Bloomberg", "NBC", "Hilton",
+  "TED", "Hyatt", "Reuters", "CNBC", "Wynn",
 ];
 
 export function Hero() {
