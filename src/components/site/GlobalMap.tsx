@@ -13,16 +13,16 @@ const pins = [
 
 export function GlobalMap() {
   return (
-    <section className="relative py-28 lg:py-36">
+    <section className="relative py-16 lg:py-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-10">
         <SectionHeader
-          eyebrow="Global Reach"
+          eyebrow="Nationwide Coverage"
           title={
             <>
-              92 countries. One <span className="italic text-gradient-emerald">live channel.</span>
+              50 states. One <span className="italic text-gradient-emerald">live channel.</span>
             </>
           }
-          description="Track international conferences, hospitality venues, and trade shows happening right now across the global event ecosystem."
+          description="Track American conferences, hospitality venues, and trade shows happening right now across the U.S. event ecosystem."
         />
 
         <div className="relative mt-14 overflow-hidden rounded-3xl bg-gradient-soft p-6 shadow-soft sm:p-10">
@@ -52,10 +52,10 @@ export function GlobalMap() {
 
           <div className="mt-8 grid gap-4 sm:grid-cols-4">
             {[
-              { l: "Cities", v: "320+" },
-              { l: "Live now", v: "47" },
-              { l: "Venues mapped", v: "1,840" },
-              { l: "Annual reach", v: "12M" },
+              { l: "U.S. cities", v: "180+" },
+              { l: "Live now", v: "32" },
+              { l: "Venues mapped", v: "1,240" },
+              { l: "Annual reach", v: "8M" },
             ].map((s) => (
               <div key={s.l} className="rounded-2xl bg-white p-5 text-center shadow-soft">
                 <p className="font-display text-3xl text-gradient-emerald">{s.v}</p>

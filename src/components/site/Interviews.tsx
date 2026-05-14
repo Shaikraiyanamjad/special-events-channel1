@@ -5,7 +5,7 @@ import interview from "@/assets/interview.jpg";
 
 export function Interviews() {
   return (
-    <section id="interviews" className="py-28 lg:py-36">
+    <section id="interviews" className="py-16 lg:py-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-10">
         <SectionHeader
           eyebrow="Executive Corner"
@@ -31,11 +31,11 @@ export function Interviews() {
               <div>
                 <p className="text-xs font-semibold uppercase tracking-wider text-primary">Cover Story · Issue 47</p>
                 <h3 className="mt-2 font-display text-3xl font-light leading-snug sm:text-4xl">
-                  “Hospitality is no longer a service —<br className="hidden sm:block" />
-                  it’s a stage for human moments.”
+                  &ldquo;American hospitality isn&rsquo;t a service —<br className="hidden sm:block" />
+                  it&rsquo;s a stage for human moments.&rdquo;
                 </h3>
                 <p className="mt-3 text-foreground/65">
-                  Helena Vargas (Four Seasons) and Daniel Okafor (Marriott) on the new economics of luxury events.
+                  Helena Vargas (The Plaza, NYC) and Daniel Okafor (Marriott) on the new economics of luxury U.S. events.
                 </p>
               </div>
               <button

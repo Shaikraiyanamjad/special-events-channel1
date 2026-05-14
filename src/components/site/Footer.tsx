@@ -11,7 +11,7 @@ export function Footer() {
             "radial-gradient(60% 60% at 80% 0%, color-mix(in oklab, var(--primary) 50%, transparent), transparent 70%)",
         }}
       />
-      <div className="relative mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-10">
+      <div className="relative mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-10">
         <div className="grid gap-14 lg:grid-cols-12">
           <div className="lg:col-span-5">
             <div className="inline-block">

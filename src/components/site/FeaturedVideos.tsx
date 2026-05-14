@@ -6,16 +6,16 @@ import networking from "@/assets/networking.jpg";
 import interview from "@/assets/interview.jpg";
 
 const videos = [
-  { img: stage, cat: "Conference", title: "Inside the Web Summit 2026 Keynote", duration: "12:48" },
-  { img: hospitality, cat: "Hospitality", title: "Four Seasons Unveils its Riviera Estate", duration: "08:22" },
+  { img: stage, cat: "Conference", title: "Inside the CES 2026 Las Vegas Keynote", duration: "12:48" },
+  { img: hospitality, cat: "Hospitality", title: "The Plaza Unveils its Manhattan Estate", duration: "08:22" },
   { img: networking, cat: "Networking", title: "The Art of Executive Connection", duration: "06:10" },
-  { img: expo, cat: "Trade Show", title: "MWC Barcelona — Floor Highlights", duration: "14:37" },
-  { img: interview, cat: "Interview", title: "Marriott CEO on the Next Decade", duration: "22:05" },
+  { img: expo, cat: "Trade Show", title: "NRF New York — Floor Highlights", duration: "14:37" },
+  { img: interview, cat: "Interview", title: "Hilton CEO on the Next American Decade", duration: "22:05" },
 ];
 
 export function FeaturedVideos() {
   return (
-    <section id="webcasts" className="relative py-28 lg:py-36">
+    <section id="webcasts" className="relative py-16 lg:py-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-10">
         <div className="flex flex-wrap items-end justify-between gap-6">
           <SectionHeader

@@ -2,15 +2,15 @@ import { SectionHeader } from "./Section";
 import stage from "@/assets/stage.jpg";
 
 const upcoming = [
-  { time: "Today · 18:00 GMT", title: "The Hospitality Reset 2026", speaker: "Anouk Renaud, CEO Accor", in: "02:14:09" },
+  { time: "Today · 18:00 EST", title: "The U.S. Hospitality Reset 2026", speaker: "Anthony Capuano, CEO Marriott", in: "02:14:09" },
   { time: "Tomorrow · 10:00 EST", title: "Sponsorship in the AI Era", speaker: "Marcus Whitfield, Forbes", in: "1d 10h" },
-  { time: "Fri · 14:00 CET", title: "Inside Cannes Lions: Behind the Curtain", speaker: "Élise Bernard, Web Summit", in: "3d 02h" },
-  { time: "Mon · 09:00 SGT", title: "Asia-Pacific Trade Outlook", speaker: "Dr. Hiroshi Tanaka", in: "6d 17h" },
+  { time: "Fri · 14:00 PST", title: "Inside SXSW: Behind the Curtain", speaker: "Jessica Reynolds, Austin", in: "3d 02h" },
+  { time: "Mon · 09:00 CST", title: "American Trade Outlook 2026", speaker: "Dr. Robert Hayes", in: "6d 17h" },
 ];
 
 export function LiveWebcasts() {
   return (
-    <section className="relative bg-gradient-soft py-28 lg:py-36">
+    <section className="relative bg-gradient-soft py-16 lg:py-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-10">
         <SectionHeader
           eyebrow="Live & Upcoming"
